@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     <meta name="description" content="Proyecto MVC con PHP y MySQL">
     <title>Gestor de Figuras - MVC</title>
-    <link rel="icon" href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/img/message.png" type="image/png">
+    <link rel="icon" href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/img/calculadora.png" type="image/png">
     <link rel="stylesheet" href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/asset/css/style.css">
 </head>
 
@@ -17,7 +17,7 @@
             <a href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>">✔️ CRUD CUADRADO ✔️</a>
         </h1>
         <nav>
-            <a href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/mensajes" class="btn btn-primary">Mensajes</a>
+            <a href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages" class="btn btn-primary">Mensajes</a>
         </nav>
     </header>
 

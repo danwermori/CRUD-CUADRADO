@@ -90,10 +90,14 @@ h1 a{
     background:#2a2f36;
      color:white; 
     }
-.btn.danger{ 
-    background:var(--danger); 
-    color:#fff; 
+.btn.danger {
+    background: var(--danger);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .form{ display:grid;
      gap:0.8rem;
       max-width:620px; 
@@ -103,7 +107,7 @@ input[type=text], input[type=date], textarea, input[type=file]{
       padding:0.55rem 0.7rem;
        border-radius:10px; 
        border:1px solid #2a2f36;
-        background:#0f1116; 
+        background: white; 
         color:var(--fg); 
     }
 .alert{ 

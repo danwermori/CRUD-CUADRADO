@@ -33,7 +33,7 @@ class MensajeController extends Controller
                 'fecha' => $fecha
             ]);
 
-            $this->redirect('/mensajes/show?id=' . $id);
+            $this->redirect('/messages/show?id=' . $id);
         } catch (Throwable $e) {
             $error = $e->getMessage();
             $this->views('messages/create', compact('error'));
@@ -89,7 +89,7 @@ class MensajeController extends Controller
                 'fecha' => $fecha
             ]);
 
-            $this->redirect('/mensajes/show?id=' . $id);
+            $this->redirect('/messages/show?id=' . $id);
         } catch (Throwable $e) {
             $error = $e->getMessage();
             $mensaje = [
@@ -107,6 +107,6 @@ class MensajeController extends Controller
         if ($id) {
             Mensaje::deleteById($id);
         }
-        $this->redirect('/mensajes');
+        $this->redirect('/messages');
     }
 }

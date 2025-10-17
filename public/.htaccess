@@ -4,7 +4,7 @@
 
 RewriteEngine On
 
-RewriteBase /CRUD_CUADRADO/public
+RewriteBase /tarea06/crud_cuadrado/public
 
 RewriteCond %{REQUEST_FILENAME} !-f
 

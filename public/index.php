@@ -20,5 +20,5 @@ $router->post('/messages/store', [MensajeController::class, 'store']);
 $router->get('/messages/show', [MensajeController::class, 'show']);
 $router->get('/messages/edit', [MensajeController::class, 'edit']);
 $router->post('/messages/update', [MensajeController::class, 'update']);
-$router->post('/messages/delete', [MensajeController::class, 'destroy']);
+$router->post('/messages/destroy', [MensajeController::class, 'destroy']);
 $router->dispatch();

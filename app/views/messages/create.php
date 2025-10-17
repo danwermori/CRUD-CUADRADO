@@ -10,9 +10,8 @@
     <?php endif; ?>
 
     <form method="post"
-        action="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/mensajes/store"
+        action="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages/store"
         class="form">
-
         <label>Lado
             <input type="number" name="lado" min="1" required />
         </label>
@@ -22,6 +21,6 @@
         </label>
 
         <button type="submit" class="btn">Guardar</button>
-        <a class="btn secondary" href="/mensajes">Cancelar</a>
+        <a class="btn danger" href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages">Cancelar</a>
     </form>
 </section>

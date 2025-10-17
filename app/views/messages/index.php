@@ -21,7 +21,13 @@
                     <div class="row">
                         <a class="btn" href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages/show?id=<?= (int)$m['id'] ?>">Ver</a>
                         <a class="btn secondary" href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages/edit?id=<?= (int)$m['id'] ?>">Editar</a>
-                        <a class="btn danger" href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages/delete?id=<?= (int)$m['id'] ?>">Eliminar</a>
+                        <a
+                            href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages/destroy?id=<?= (int)$m['id'] ?>"
+                            class="btn danger btn-delete"
+                            data-id="<?= (int)$m['id'] ?>">
+                            Eliminar
+                        </a>
+
                     </div>
                 </article>
             <?php endforeach; ?>

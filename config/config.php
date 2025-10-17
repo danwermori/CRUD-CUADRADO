@@ -7,7 +7,7 @@ define('DB_PASS', '');
 define('DB_PORT', '3306');
 
 // Configuración de rutas
-define('BASE_URL', '/Crud_cuadrado/public');
+define('BASE_URL', '/tarea06/crud_cuadrado/public');
 define('UPLOAD_DIR', __DIR__ . '/../public/img');
 
 // Configuración de carga de archivos

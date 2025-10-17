@@ -11,7 +11,7 @@
     <?php endif; ?>
 
     <form method="post"
-        action="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/mensajes/update"
+        action="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages/update"
         class="form">
 
         <input type="hidden" name="id" value="<?= (int)$mensaje['id'] ?>" />
@@ -26,6 +26,6 @@
 
         <button type="submit" class="btn">Actualizar</button>
         <a class="btn secondary"
-            href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/mensajes/show?id=<?= (int)$mensaje['id'] ?>">Cancelar</a>
+            href="<?= (BASE_URL ? rtrim(BASE_URL, '/') : '') ?>/messages/show?id=<?= (int)$mensaje['id'] ?>">Cancelar</a>
     </form>
 </section>
